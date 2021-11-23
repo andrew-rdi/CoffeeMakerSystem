@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#MainWindow{
+background-color:rgb(92, 26, 14);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="Button_produckt">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>230</y>
+      <width>291</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Button_produckt{
+background-color:rgb(253, 238, 197);  
+border-radius: 10px;
+border: 5px solid rgb(253, 238, 197);
+font-size: 20px;
+color: #f06522;
+text-align: center;
+}
+#Button_produckt:hover {
+background-color:#56150f;  
+color: rgb(227, 228, 230);  
+}</string>
+    </property>
+    <property name="text">
+     <string>ДОДАТИ ПРОДУКТИ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_On">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>380</y>
+      <width>291</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Button_On{ 
+  border-radius: 10px;
+  border: 5px solid rgb(172, 37, 34);
+  font-size: 20px;
+  color: #f06522;
+  text-align: center;
+ background-color: rgb(40, 37, 31)
+}
+#Button_On:hover {
+background-color: rgb(172, 37, 34);
+color: rgb(254, 254, 254);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>УВІМКНУТИ</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-30</y>
+      <width>621</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image:url(:/res/img/coffeeMaker_7.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_instruction">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>291</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Button_instruction{
+background-color: rgb(254, 239, 198);  
+border-radius: 10px;
+border: 5px solid rgb(253, 238, 197);
+font-size: 20px;
+color: #f06522;
+text-align: center;
+}
+#Button_instruction:hover {
+background-color:#56150f;  
+color: rgb(227, 228, 230);  
+}</string>
+    </property>
+    <property name="text">
+     <string>ІНСТРУКЦІЯ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_Of">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>291</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Button_Of{  
+  border-radius: 10px;
+  border: 5px solid rgb(172, 37, 34);
+  font-size: 20px;
+  color: #f06522;
+  text-align: center;
+  background-color: rgb(40, 37, 31);
+}
+#Button_Of:hover {
+background-color: rgb(172, 37, 34);
+color: rgb(254, 254, 254);
+}</string>
+    </property>
+    <property name="text">
+     <string>ВИМКНУТИ</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

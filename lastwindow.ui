@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LastWindow</class>
+ <widget class="QDialog" name="LastWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>790</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(64, 190, 189);</string>
+  </property>
+  <widget class="QPushButton" name="Button_finish">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>540</y>
+     <width>791</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#Button_finish{
+transition-duration: 0.8s;
+border-radius: 0px;
+background-color: rgb(63, 63, 63);
+font-size: 20px;
+color:rgb(254, 251, 236);
+}
+
+#Button_finish:hover {
+background-color: rgb(24, 24, 24);
+}</string>
+   </property>
+   <property name="text">
+    <string>Завершити роботу та вийти з системи</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>0</y>
+     <width>471</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/res/img/coffeeMaker_12.jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>140</y>
+     <width>301</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;
+background-color: rgb(51, 40, 48);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;h2 align=&quot;center&quot; style=&quot; margin-top:16px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600; color:#fefbec;&quot;&gt;Отримайте ваше &lt;/span&gt;&lt;/h2&gt;&lt;h2 align=&quot;center&quot; style=&quot; margin-top:16px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600; color:#fefbec;&quot;&gt;замовлення.&lt;/span&gt;&lt;/h2&gt;&lt;h2 align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:16px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:x-large; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/h2&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_back">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#Button_back{
+transition-duration: 0.8s;
+border-radius: 10px;
+background-color: rgb(80, 78, 99);
+font-size: 20px;
+color:rgb(254, 251, 236);
+}
+
+#Button_back:hover {
+background-color:rgb(42, 41, 53);
+}</string>
+   </property>
+   <property name="text">
+    <string>Повернутися назад</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>Button_finish</zorder>
+  <zorder>Button_back</zorder>
+  <zorder>label_2</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Button_finish</sender>
+   <signal>clicked()</signal>
+   <receiver>LastWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>294</x>
+     <y>558</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>275</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

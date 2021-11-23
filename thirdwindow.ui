@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ThirdWindow</class>
+ <widget class="QDialog" name="ThirdWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>790</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#ThirdWindow {
+background-color: rgb(102, 102, 102);
+}</string>
+  </property>
+  <widget class="QPushButton" name="Button_amerecano">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>340</y>
+     <width>181</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#Button_amerecano{
+border-radius: 10px;
+background-color:rgb(234, 111, 69);
+font-size: 20px;
+color:rgb(254, 251, 236);
+}
+
+#Button_amerecano:hover {
+transition-duration: 0.8s;
+background-color:rgb(42, 41, 53);
+}</string>
+   </property>
+   <property name="text">
+    <string>Американо</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_capuccino">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>100</y>
+     <width>181</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#Button_capuccino{
+border-radius: 10px;
+background-color:rgb(98, 52, 34);
+font-size: 20px;
+color:rgb(254, 251, 236);
+}
+
+#Button_capuccino:hover {
+transition-duration: 0.8s;
+background-color:rgb(42, 41, 53);
+}</string>
+   </property>
+   <property name="text">
+    <string>Капучино</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_late">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>220</y>
+     <width>181</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#button_late{
+border-radius: 10px;
+background-color: rgb(180, 46, 55);
+font-size: 20px;
+color:rgb(254, 251, 236);
+}
+
+#button_late:hover {
+transition-duration: 0.8s;
+background-color:rgb(42, 41, 53);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Лате</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_espresso">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>460</y>
+     <width>181</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#Button_espresso {
+border-radius: 10px;
+background-color: rgb(56, 87, 35);
+font-size: 20px;
+color:rgb(254, 251, 236);
+}
+
+#Button_espresso:hover {
+transition-duration: 0.8s;
+background-color:rgb(42, 41, 53);
+}</string>
+   </property>
+   <property name="text">
+    <string>Еспресо</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="late">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>220</y>
+     <width>81</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/res/img/1Late.png);
+border-radius:  rgb(138, 141, 160);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="amerecano">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>340</y>
+     <width>81</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/res/img/1Amerecano.png);
+border-radius:  rgb(138, 141, 160);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>170</y>
+     <width>471</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/res/img/1cup_1.jpg);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;h2 align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:16px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:x-large; font-weight:600;&quot;&gt;&lt;br/&gt;&lt;/h2&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>20</y>
+     <width>381</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;
+background-color: rgb(51, 40, 48);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;h2 align=&quot;center&quot; style=&quot; margin-top:16px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:x-large; font-weight:600; color:#fefbec;&quot;&gt;Оберіть каву для приготування&lt;/span&gt;&lt;/h2&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="capuccino">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>100</y>
+     <width>81</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/res/img/1Cappuccino.png);
+border-radius:  rgb(138, 141, 160);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="espresso">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>460</y>
+     <width>81</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/res/img/1Espresso.png);
+border-radius:  rgb(138, 141, 160);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_back">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#Button_back {
+transition-duration: 0.8s;
+border-radius: 10px;
+background-color: rgb(80, 78, 99);
+font-size: 20px;
+color:rgb(254, 251, 236);
+}
+
+#Button_back:hover {
+background-color:rgb(42, 41, 53);
+}</string>
+   </property>
+   <property name="text">
+    <string>Повернутися назад</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

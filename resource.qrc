@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>img/1Amerecano.png</file>
+        <file>img/1Cappuccino.png</file>
+        <file>img/1cup_1.jpg</file>
+        <file>img/1Espresso.png</file>
+        <file>img/1Late.png</file>
+        <file>img/Amerecano.png</file>
+        <file>img/Cappuccino.png</file>
+        <file>img/coffeeMaker_7.jpg</file>
+        <file>img/coffeeMaker_12.jpg</file>
+        <file>img/coffeeMaker_man.jpg</file>
+        <file>img/cup_1.jpg</file>
+        <file>img/Espresso.png</file>
+        <file>img/Late.png</file>
+    </qresource>
+</RCC>

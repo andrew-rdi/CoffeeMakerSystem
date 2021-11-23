@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FourthWindow</class>
+ <widget class="QDialog" name="FourthWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>790</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#FourthWindow {
+background-color: rgb(138, 141, 160);
+}</string>
+  </property>
+  <widget class="QCheckBox" name="buttonSugar">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>390</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#buttonSugar{
+border-radius: 10px;
+background-color: #166ba4;
+font-size: 20px;
+color:rgb(254, 251, 236);
+padding: 30px;
+}
+
+#buttonSugar:hover {
+transition-duration: 0.8s;
+background-color:rgb(42, 41, 53);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Цукор</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_back">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#Button_back{
+transition-duration: 0.8s;
+border-radius: 10px;
+background-color: rgb(80, 78, 99);
+font-size: 20px;
+color:rgb(254, 251, 236);
+}
+
+#Button_back:hover {
+background-color:rgb(42, 41, 53);
+}</string>
+   </property>
+   <property name="text">
+    <string>Повернутися назад</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>20</y>
+     <width>431</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 20px;
+background-color: rgb(51, 40, 48);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;h2 align=&quot;center&quot; style=&quot; margin-top:16px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#fefbec;&quot;&gt;Ваша кава готується :)&lt;/span&gt;&lt;/h2&gt;&lt;h2 align=&quot;center&quot; style=&quot; margin-top:16px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:72pt; font-weight:600; color:#fefbec;&quot;&gt;&lt;br/&gt;Зараз ви можете обрати&lt;br/&gt;додаткові продукти&lt;/span&gt;&lt;/h2&gt;&lt;h2 align=&quot;center&quot; style=&quot; margin-top:16px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:72pt; font-weight:600; color:#fefbec;&quot;&gt;&lt;br/&gt;(за бажанням)&lt;/span&gt;&lt;/h2&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_order">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>500</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#Button_order{
+transition-duration: 0.8s;
+border-radius: 10px;
+background-color: rgb(80, 78, 99);
+font-size: 20px;
+color:rgb(254, 251, 236);
+}
+
+#Button_order:hover {
+background-color:rgb(42, 41, 53);
+}</string>
+   </property>
+   <property name="text">
+    <string>Отримати замовлення</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="buttonmilk">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>110</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#buttonmilk{
+border-radius: 10px;
+background-color:#166ba4;
+font-size: 20px;
+color:rgb(254, 251, 236);
+padding: 30px;
+}
+
+#buttonmilk:hover {
+transition-duration: 0.8s;
+background-color:rgb(42, 41, 53);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Молоко</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="buttonCoriza">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>250</y>
+     <width>171</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#buttonCoriza{
+border-radius: 10px;
+background-color: #166ba4;
+font-size: 20px;
+color:rgb(254, 251, 236);
+padding: 30px;
+}
+
+#buttonCoriza:hover {
+transition-duration: 0.8s;
+background-color:rgb(42, 41, 53);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Кориця</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
